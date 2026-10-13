@@ -26,6 +26,7 @@ These contain files related to ongoing work. They are also kept for later refere
 
 These tickets will be worked on only on this machine, they don't have to be portable. 
 Tickets are Markdown files in `'T-{number:04d}.md'` format. Move completed or canceled tickets in the respective subdirectories. 
+Create a new ticket with `scripts/new-ticket.sh T`, never by picking the next number yourself. Parallel sessions would pick the same one. The script reserves the number atomically, creates the ticket file from `Template.md` and prints its path; fill in that file. 
 Use a standard ticket header format as a Markdown frontmatter, follow `tickets/Template.md` for ticket creation, but can extend the format as needed. Ticket frontmatter may change over time. 
 Supplementary files should go into notes which the tickets can reference and even share if related. Tickets should reference the task or plan they are related to. 
 Defects found in unrelated code during work may be added as tickets to avoid scope creep and mixed changesets.
