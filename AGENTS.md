@@ -39,6 +39,6 @@ The sub-workspaces use their own ticket system, but has access to this top level
 - When getting a new PR ready for review suggest running the `consistency-check` skill to catch any leftover issues.
 - Use American English, for example instead of "analyse" write "analyze". 
 - The workspace level rules here are supposed to be maintained by humans.
-- Do not add/remove project folders without explicit request or permission. They are supposed to be linked or cloned here by humans.
+- Do not add/remove project folders without explicit request or permission.
 - Use `black` to auto-format Python code.
 - Use `csharpier` to auto-format C# code.
